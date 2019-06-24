@@ -98,18 +98,16 @@ feed:
   content_limit: 140
   content_limit_delim: ' '
 
-# Offline
-#offline:
-  #maximumFileSizeToCacheInBytes: 10485760
-  #staticFileGlobs:
-    #- public/**/*.{js,html,cssng,jpg,jpeg,gif,svg,eot,ttf,woff,woff2,json,xml}
-  #stripPrefix: public
-  #verbose: true
-  #runtimeCaching:
-    #- urlPattern: /*
-      #handler: cacheFirst
-      #options:
-        #origin: maxcdn.bootstrapcdn.com
+#instagramWall:
+  #enable: true
+  #access_token: '11208324684.646a299.2313afeca63c4f47a2ee35822dffb16b'
+  #requestedCount: 9
+  #itemsPerRow: 3
+  #showCaption: true
+  #displayStyle: 'flex'
+  #gutterSize: '10px'
+  #overlayColor: 'black'
+  #textColor: 'white'
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
