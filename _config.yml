@@ -114,10 +114,6 @@ feed:
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: rsync
-  host: cabezon
-  user: isaac
-  root: /home/isaac/stuartprine/public
-  delete: true
-  verbose: true
-  ignore_errors: false
+  type: git
+  repo: git@github-sprine:stuartprine/stuartprine.github.io.git
+  branch: master
