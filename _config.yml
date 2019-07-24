@@ -4,15 +4,15 @@
 
 # Site
 title: Stuart Prine
-subtitle: Blah
-description: Where I put it down
+subtitle:
+description: Personal blog
 author: Stuart Prine
 language: en
 timezone: America/Los_Angeles
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://stuartprine.com
+url: https://stuartprine.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -86,7 +86,7 @@ sitemap:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: icarus
+theme: dxx
 
 #feed
 feed:
