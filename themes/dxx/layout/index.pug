@@ -1,7 +1,6 @@
 extends includes/layout
 
 block content
-
     section#wrapper.home
         ul#post-list
             each item in page.posts.sort('date', -1).toArray()
@@ -27,6 +26,3 @@ block content
                     a(href=url_for(page.next_link))
                         | Older Posts
                         span.arrow →
-
-
-
