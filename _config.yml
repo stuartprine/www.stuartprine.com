@@ -74,7 +74,6 @@ node_sass:
     precision: 5
     sourceComments: false
 
-
 sitemap:
     path: sitemap.xml
     template: ./sitemap_template.xml

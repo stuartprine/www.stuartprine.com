@@ -9,11 +9,13 @@ block content
                 li
                     aside.dates=createDate
                     if item.link
-                        a(href=url_for(item.link))= postTitle
-                            h2!=item.excerpt
+                        a(href=url_for(item.link))
+                            h2!= postTitle
+                            != item.excerpt
                     else
-                        a(href=url_for(item.path))= postTitle
-                            h2!=item.excerpt
+                        a(href=url_for(item.path))
+                            h2!= postTitle
+                            != item.excerpt
 
         nav#post-nav
             span.prev(style='padding-left: 20px;')

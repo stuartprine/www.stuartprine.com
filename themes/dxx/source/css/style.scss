@@ -366,12 +366,6 @@ em, i {
     display: block;
 }
 
-#post-list h2 {
-    font: normal 17px/1.5em "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #aaa;
-    margin-top: 2px;
-}
-
 h3, h4, h5 {
     color: #333;
 }
@@ -494,26 +488,35 @@ Post List
     list-style-type: none;
 }
 
-#post-list li:last-child {
-    margin-bottom: 0;
-}
-
-#post-list li+li {
-    padding-top: 20px;
-}
-
-#post-list a {
-    color: #333;
-    display: block;
-    font: bold 19px/1.7 "Helvetica Neue", helvetica, Arial, sans-serif;
-}
-
-#post-list .dates {
-    float: right;
-    position: relative;
-    top: 1px;
-    font: 300 17px/1.8 "Helvetica Neue", helvetica, Arial, sans-serif;
-    color: #bbb;
+#post-list {
+    li:last-child {
+        margin-bottom: 0;
+    }
+    li+li {
+        padding-top: 20px;
+    }
+    a {
+        font-family: "Helvetica Neue", helvetica, Arial, sans-serif;
+        &, &:hover {
+            color: #777;
+        }
+    }
+    h2, .dates {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-style: normal;
+        color: #333;
+        font-size: 1.125em;
+        font-weight: bold;
+    }
+    h2 {
+        margin-top: 2px;
+        margin-bottom: 0.5em;
+    }
+    .dates {
+        float: right;
+        position: relative;
+        top: 1px;
+    }
 }
 
 #post-list-footer {

@@ -16,3 +16,8 @@ disqus:
 
 google_site_verification:
 google_analytics:
+
+node_sass:
+  outputStyle: nested
+  precision: 5
+  sourceComments: false
